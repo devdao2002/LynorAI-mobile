@@ -33,8 +33,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "lynorai-copilot"
+        "projectId": "ec2f0e1d-fe1d-4c33-9953-3fd57cf775dc"
       }
-    }
+    },
+    "owner": "devdao2002"
   }
 }
