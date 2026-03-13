@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "LynorAI Copilot",
+    "slug": "lynorai-copilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "space.lynorai.copilot",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "space.lynorai.copilot",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#1a1a2e"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-document-picker",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "lynorai-copilot"
+      }
+    }
+  }
+}
